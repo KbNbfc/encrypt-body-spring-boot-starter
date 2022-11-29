@@ -1,0 +1,6 @@
+eval "$(jenv init -)"
+jenv enable-plugin export
+jenv enable-plugin maven
+jenv local 17.0.5
+
+alias home='cd $(git rev-parse --show-toplevel)' 
